@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SunShowers</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Menu headings -->
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_map">Show on Map</string>
+    <string name="action_share">Share</string>
+
+    <!-- Default forecasts in templates, never seen. -->
+    <string name="list_item_default">Today - Sunny - 88/63</string>
+    <string name="detail_default">Tomorrow - Rain - 68/53</string>
+
+    <!-- Preferences Strings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+
+    <!-- Location Settings -->
+    <string name="pref_location_title">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_default">94043</string>
+
+    <!-- Units Settings -->
+    <string name="pref_units_title">Units</string>
+    <string name="pref_units_key">units</string>
+    <string-array name="pref_units_entries">
+        <item>Metric</item>
+        <item>Imperial</item>
+    </string-array>
+    <string-array name="pref_units_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+    <string name="pref_units_default">metric</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+</resources>
