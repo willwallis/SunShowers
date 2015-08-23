@@ -4,17 +4,45 @@ import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
+import android.util.Log;
 import android.view.MenuItem;
 
 
 public class MainActivity extends ActionBarActivity {
 
+    private static final String TAG = "MainActivity";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.v(TAG, "onCreate");
     }
 
+    protected void onStart() {
+        super.onStart();
+        Log.v(TAG, "onStart");
+    }
+
+    protected void onResume() {
+        super.onResume();
+        Log.v(TAG, "onResume");
+    }
+
+    protected void onPause() {
+        super.onPause();
+        Log.v(TAG, "onPause");
+    }
+
+    protected void onStop() {
+        super.onStop();
+        Log.v(TAG, "onStop");
+    }
+
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.v(TAG, "onDestroy");
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
