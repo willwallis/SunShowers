@@ -30,6 +30,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.knewto.www.sunshowers.MainActivity" />
         </activity>
+        <provider
+            android:authorities="com.knewto.www.sunshowers"
+            android:name=".data.WeatherProvider"
+            android:exported="false"
+            android:syncable="true" />
     </application>
 
 </manifest>

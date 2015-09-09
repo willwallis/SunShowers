@@ -35,6 +35,8 @@
         <item>imperial</item>
     </string-array>
     <string name="pref_units_default">metric</string>
+    <string name="pref_units_metric">metric</string>
+    <string name="pref_units_imperial">imperial</string>
     <string name="title_activity_detail">DetailActivity</string>
 
 </resources>
